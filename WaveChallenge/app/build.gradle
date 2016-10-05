@@ -30,6 +30,10 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
+    // Testing
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-all:1.10.19'
+
     // Android support
     compile 'com.android.support:appcompat-v7:24.2.0'
     compile 'com.android.support:support-v4:24.2.0'
@@ -46,6 +50,4 @@ dependencies {
     // RxJava
     compile 'io.reactivex:rxandroid:1.2.1'
     compile 'io.reactivex:rxjava:1.1.9'
-
-    testCompile 'junit:junit:4.12'
 }
